@@ -28,9 +28,9 @@ class Command(BaseCommand):
             story_content = str(soup.find_all('article', attrs={'class': 'clearfix'}));
  
             print story_content
-            school_stories = Schools.objects.get(name='UNC')
-            school_stories.newspaper_sexualassault = story_content
-            school_stories.save(update_fields=['newspaper_sexualassault'])
+            school_stories = Schools.objects.get(name='University of Alabama')
+            school_stories.content = story_content
+            school_stories.save(update_fields=['content'])
                 
         except Schools.DoesNotExist:
             raise CommandError('didn\'t work')

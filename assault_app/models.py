@@ -22,7 +22,7 @@ class Schools(models.Model):
     counseling = models.TextField()
     lat = models.TextField()
     longitude = models.TextField()
-    #content = models.TextField()
+    content = models.TextField()
     #articles = models.TextField()
     
     def __unicode__(self):
