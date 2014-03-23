@@ -4,6 +4,18 @@ body{
     font-size: 18px;
     line-height: 30px;
 }
+ol{
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-size: 16px;
+}
+
+p{
+    font-size: 14px;
+    line-height: 18px;
+}
 
 .container{
     width:80%;

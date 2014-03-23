@@ -8,6 +8,7 @@ import string
 
 def school(request, pk):
     school = get_object_or_404(Schools, id=pk)
+    school.content_split = school.content.replace('[','').replace(']','').replace('</div>, <div','</div> <div')
 
     context = {
         'school': school,
