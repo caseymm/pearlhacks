@@ -16,7 +16,7 @@ class Command(BaseCommand):
         try:
             self.stdout.write("scraping stories")
                 
-            url = 'http://www.dailytarheel.com/search/?q=sexual+assault' # write the url here
+            url = 'http://kansan.com/?s=sexual+assault' # write the url here
             usock = urllib2.urlopen(url)
             html_data = usock.read()
             usock.close()
@@ -25,10 +25,10 @@ class Command(BaseCommand):
             soup = BeautifulSoup(html_data)
 
             #Find the div that all of the articles live in for the given url
-            story_content = str(soup.find_all('div', attrs={'class': 'clearfix'}));
+            story_content = str(soup.find_all('div', attrs={'class': 'std-wrap search'}));
  
             print story_content
-            school_stories = Schools.objects.get(name='University of Alabama')
+            school_stories = Schools.objects.get(name='Universtiy of Kansas')
             school_stories.content = story_content
             school_stories.save(update_fields=['content'])
                 
