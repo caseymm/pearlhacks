@@ -729,6 +729,236 @@
             "longitude": 74.6702
         }
     },
+    	{
+		"pk":27,
+		"model":"assault_app.Schools",
+		"fields":{
+          "content": "",
+			"name": "University of New Mexico",
+			"population":"21,138",
+			"city":"Albuquerque",
+			"state":"New Mexico",
+			"newspaper":"The Daily Lobo",
+			"newspaper_link":"http://www.dailylobo.com/",
+			"newspaper_sexualassault":"http://www.dailylobo.com/search/?q=sexual+assault",
+			"male_ratio": 44,
+			"female_ratio": 56,
+			"priv_pub":"public",
+			"male_greeklife":"5%",
+			"female_greeklife":"6%",
+			"campus_health":"http://shac.unm.edu/",
+			"sexual_health":"http://www.rapecrisiscnm.org/",
+			"counseling":"http://shac.unm.edu/counseling.html",
+			"lat":"35.0839",
+			"longitude":"106.6186"
+		}
+	},
+		{
+		"pk":28,
+		"model":"assault_app.Schools",
+		"fields":{
+          "content": "",
+			"name": "New York University",
+			"population":"22,615",
+			"city":"New York",
+			"state":"New York",
+			"newspaper":"Washington Square News",
+			"newspaper_link":"http://www.nyunews.com/",
+			"newspaper_sexualassault":"http://www.nyunews.com/?s=sexual+assault",
+			"male_ratio": 40,
+			"female_ratio": 60,
+			"priv_pub":"Private",
+			"male_greeklife":"5%",
+			"female_greeklife":"7%",
+			"campus_health":"http://www.nyu.edu/life/safety-health-wellness/student-health-center.html",
+			"sexual_health":"http://www.nyu.edu/life/safety-health-wellness/student-health-center/services/womens-health.html",
+			"counseling":"http://www.nyu.edu/life/safety-health-wellness/student-health-center/services/mental-health.html",
+			"lat":"42.3482",
+			"longitude":"75.1890"
+
+		}
+	},
+		{
+		"pk":29,
+		"model":"assault_app.Schools",
+		"fields":{
+          "content": "",
+			"name": "University of North Carolina at Chapel Hill",
+			"population":"18,370",
+			"city":"Chapel Hill",
+			"state":"North Carolina",
+			"newspaper":"The Daily Tar Heel",
+			"newspaper_link":"http://www.dailytarheel.com/",
+			"newspaper_sexualassault":"http://www.dailytarheel.com/search/?q=sexual+assault",
+			"male_ratio": 58,
+			"female_ratio": 42,
+			"priv_pub":"Public",
+			"male_greeklife":"17%",
+			"female_greeklife":"18",
+			"campus_health":"http://campushealth.unc.edu/",
+			"sexual_health":"http://campushealth.unc.edu/healthtopics/sexual-health",
+			"counseling":"http://campushealth.unc.edu/caps",
+			"lat":"35.9083",
+			"longitude":"79.0500"
+
+		}
+	},
+
+		{
+		"pk":30,
+		"model":"assault_app.Schools",
+		"fields":{
+          "content": "",
+			"name": "North Dakota State University",
+			"population": "11,948",
+			"city":"Fargo",
+			"state":"North Dakota",
+			"newspaper":"The Spectrum",
+			"newspaper_link":"http://www.ndsuspectrum.com/",
+			"newspaper_sexualassault":"http://www.ndsuspectrum.com/search-1.1674063?q=sexual+assault",
+			"male_ratio": 56,
+			"female_ratio": 44,
+			"priv_pub":"Public",
+			"male_greeklife":"6.5",
+			"female_greeklife":"3.6",
+			"campus_health":"http://www.ndsu.edu/studenthealthservice/",
+			"sexual_health":"http://www.ndsu.edu/studenthealthservice/womens_health_services/",
+			"counseling":"http://www.ndsu.edu/counseling/",
+			"lat":"46.8916",
+			"longitude":"96.8003"
+
+		}
+	},
+
+		{
+		"pk":31,
+		"model":"assault_app.Schools",
+		"fields":{
+          "content": "",
+			"name": "Ohio State University",
+			"population":"",
+			"city":"Columbus",
+			"state":"Ohio",
+			"newspaper":"The Lantern",
+			"newspaper_link":"http://thelantern.com/",
+			"newspaper_sexualassault":"http://thelantern.com/?s=sexual+assault&x=0&y=0",
+			"male_ratio": 53,
+			"female_ratio": 47,
+			"priv_pub":"Public",
+			"male_greeklife":"5%",
+			"female_greeklife":"5%",
+			"campus_health":"http://shs.osu.edu/",
+			"sexual_health":"http://shs.osu.edu/services/womens-services/sexual-violence/",
+			"counseling":"http://shs.osu.edu/services/psychological/",
+			"lat":"40.0000",
+			"longitude":"83.0145"
+
+		}
+	},
+		{
+		"pk":32,
+		"model":"assault_app.Schools",
+		"fields":{
+          "content": "",
+			"name": "Oaklahoma State University",
+			"population":"20,026",
+			"city":"Stillwater",
+			"state":"Oaklahoma",
+			"newspaper":"The Daily O'Collegian",
+			"newspaper_link":"http://www.ocolly.com/",
+			"newspaper_sexualassault":"http://www.ocolly.com/search/?t=article&d1=1+year+ago&q=sexual+assault&x=0&y=0",
+			"male_ratio": 52,
+			"female_ratio": 48,
+			"priv_pub":"Public",
+			"male_greeklife":"16%",
+			"female_greeklife":"25%",
+			"campus_health":"http://uhs.okstate.edu/",
+			"sexual_health":"http://uhs.okstate.edu/women-and-alcohol",
+			"counseling":"http://uhs.okstate.edu/mental-health",
+			"lat":"36.1322",
+			"longitude":"97.0808"
+
+		}
+	},
+
+		{
+		"pk":33,
+		"model":"assault_app.Schools",
+		"fields":{
+          "content": "",
+			"name": "University of Oregon",
+			"population":"20,809",
+			"city":"Eugene",
+			"state":"Oregon",
+			"newspaper":"The Daily Emerald",
+			"newspaper_link":"http://dailyemerald.com/",
+			"newspaper_sexualassault":"http://dailyemerald.com/?s=sexual+assault",
+			"male_ratio": 48,
+			"female_ratio": 52,
+			"priv_pub":"Public",
+			"male_greeklife":"10%",
+			"female_greeklife":"15%",
+			"campus_health":"https://healthcenter.uoregon.edu/",
+			"sexual_health":"https://healthcenter.uoregon.edu/Services/SexualHealthServices.aspx",
+			"counseling":"https://healthcenter.uoregon.edu/Services/MentalHealthServices.aspx",
+			"lat":"44.0440",
+			"longitude":"123.0757"
+
+		}
+	},
+
+		{
+		"pk":34,
+		"model":"assault_app.Schools",
+		"fields":{
+          "content": "",
+			"name": "Pennsylvania State University",
+			"population":"39,192",
+			"city":"University Park",
+			"state":"Pennsylvania",
+			"newspaper":"The Daily Collegian",
+			"newspaper_link":"http://www.collegian.psu.edu/",
+			"newspaper_sexualassault":"http://www.collegian.psu.edu/search/?t=article&q=sexual+assault",
+			"male_ratio": 54,
+			"female_ratio": 46,
+			"priv_pub":"Public",
+			"male_greeklife":"14%",
+			"female_greeklife":"14%",
+			"campus_health":"http://studentaffairs.psu.edu/health/",
+			"sexual_health":"http://studentaffairs.psu.edu/health/services/clinicalServices/SAS.shtml",
+			"counseling":"http://studentaffairs.psu.edu/counseling/",
+			"lat":"40.7961",
+			"longitude":"77.8628"
+
+		}
+	},
+
+		{
+		"pk":35,
+		"model":"assault_app.Schools",
+		"fields":{
+          "content": "",
+			"name": "Brown University",
+			"population":"6,435",
+			"city":"Providence",
+			"state":"Rhode Island",
+			"newspaper":"The Brown Daily Herald",
+			"newspaper_link":"http://www.browndailyherald.com/",
+			"newspaper_sexualassault":"http://www.browndailyherald.com/?s=sexual+assault",
+			"male_ratio": 47,
+			"female_ratio": 53,
+			"priv_pub":"Private",
+			"male_greeklife":"15%",
+			"female_greeklife":"5%",
+			"campus_health":"http://www.brown.edu/Student_Services/Health_Services/",
+			"sexual_health":"",
+			"counseling":"http://brown.edu/Student_Services/Health_Services/services/appointments.html",
+			"lat":"41.8262",
+			"longitude":"71.4032"
+
+		}
+	},
+
     {
         "pk": 30,
         "model": "assault_app.Schools",
