@@ -1,7 +1,10 @@
 # Create your views here.
-from assault_app.models import Schools
+from assault_app.models import Schools#, SchoolStoryFeed
 from django.shortcuts import render, get_object_or_404, redirect, render_to_response
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+
+
+import string
 
 def school(request, pk):
     school = get_object_or_404(Schools, id=pk)
@@ -32,6 +35,18 @@ def all_schools(request):
     }
     
     return render(request, 'assault_app/all_schools.html', context)
+
+def resources(request, pk):
+    context = {
+        
+    }
+    return render(request, "assault_app/resources.html", context)
+
+def about(request, pk):
+    context = {
+        
+    }
+    return render(request, "assault_app/about.html", context)
 
 
 
