@@ -17,7 +17,7 @@ def school(request, pk):
 
 def all_schools(request):
     school_list = Schools.objects.all()
-    paginator = Paginator(school_list, 25)
+    paginator = Paginator(school_list, 50)
     page = request.GET.get('page')
     try:
         schools = paginator.page(page)
