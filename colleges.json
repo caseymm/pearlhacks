@@ -449,8 +449,35 @@
             "longitude": 70.2042
         }
     },
+    
     {
         "pk": 19,
+        "model": "assault_app.Schools",
+        "fields": {
+        "content": "",
+
+            "name": "University of Maryland",
+            "population": "26,487",
+            "city": "College Park",
+            "state": "Maryland",
+            "newspaper": "The Diamond Back",
+            "newspaper_link": "http://www.diamondbackonline.com/",
+            "newspaper_sexualassault": "http://www.diamondbackonline.com/search/?t=article&s=start_time&sd=desc&d1=&q=sexual+assault",
+            "male_ratio": 53,
+            "female_ratio": 47,
+            "priv_pub": "Public",
+            "male_greeklife": "15%",
+            "female_greeklife": "15%",
+            "campus_health": "http://www.health.umd.edu/",
+            "sexual_health": "http://www.health.umd.edu/sexualhealth",
+            "counseling": "http://www.counseling.umd.edu/",
+            "lat": 38.9875,
+            "longitude": 76.9400
+        }
+    },
+    
+    {
+        "pk": 20,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -474,8 +501,35 @@
             "longitude": 71.1169
         }
     },
+    
+        {
+        "pk": 21,
+        "model": "assault_app.Schools",
+        "fields": {
+        "content": "",
+
+            "name": "Michigan State University",
+            "population": "37,454",
+            "city": "East Lansing",
+            "state": "Michigan",
+            "newspaper": "The State News",
+            "newspaper_link": "http://statenews.com/",
+            "newspaper_sexualassault": "http://statenews.com/search/?q=sexual+assault",
+            "male_ratio": 50,
+            "female_ratio": 50,
+            "priv_pub": "Public",
+            "male_greeklife": "8%",
+            "female_greeklife": "7%",
+            "campus_health": "hhttp://olin.msu.edu/",
+            "sexual_health": "http://olin.msu.edu/services/womenshealth.htm",
+            "counseling": "http://www.counseling.msu.edu/",
+            "lat": 42.7230,
+            "longitude": 84.4810
+        }
+    },
+    
     {
-        "pk": 20,
+        "pk": 22,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -500,7 +554,7 @@
         }
     },
     {
-        "pk": 21,
+        "pk": 23,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -525,7 +579,7 @@
         }
     },
     {
-        "pk": 22,
+        "pk": 24,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -550,7 +604,7 @@
         }
     },
     {
-        "pk": 23,
+        "pk": 25,
         "model": "assault_app.Schools",
         "fields": {
             "content": "",
@@ -575,7 +629,33 @@
         }
     },
     {
-        "pk": 24,
+        "pk": 26,
+        "model": "assault_app.Schools",
+        "fields": {
+            "content":"",
+            
+            "name": "University of Nebraska",
+            "population": "19,376",
+            "city": "Lincoln",
+            "state": "Nebraska",
+            "newspaper": "The Daily Nebraska",
+            "newspaper_link": "http://www.dailynebraskan.com/",
+            "newspaper_sexualassault": "http://www.dailynebraskan.com/search/?t=article&s=start_time&sd=desc&d1=40+years+ago&q=sexual+assault ",
+            "male_ratio":54,
+            "female_ratio": 46,
+            "priv_pub": "Public",
+            "male_greeklife": "18%",
+            "female_greeklife": "22%",
+            "campus_health": "http://health.unl.edu/",
+            "sexual_health": "http://health.unl.edu/womens-health-services",
+            "counseling": "http://health.unl.edu/counseling-and-psychological-services-caps",
+            "lat": 40.8097,
+            "longitude": 96.6753
+            
+        }
+    },
+    {
+        "pk": 27,
         "model": "assault_app.Schools",
         "fields": {
             "content": "",
@@ -600,7 +680,7 @@
         }
     },
     {
-        "pk": 25,
+        "pk": 28,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -625,7 +705,7 @@
         }
     },
     {
-        "pk": 26,
+        "pk": 29,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -650,7 +730,7 @@
         }
     },
     {
-        "pk": 40,
+        "pk": 30,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
