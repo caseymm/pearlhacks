@@ -8,6 +8,18 @@
     <title>{% block title %}PearlHacks{% endblock %}</title>
     <link href="{{ STATIC_URL }}css/bootstrap.css" rel="stylesheet">
     <link href="{{ STATIC_URL }}css/pearlhacks.css" rel="stylesheet">
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/leaflet.css" />
+    
+    <!--<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />-->
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/leaflet.awesome-markers.css" />
+    <!--<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap.css" />
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/leaflet.label.css" />
+    
+    <script src="{{ STATIC_URL }}js/leaflet.js"></script>
+    <script src="{{ STATIC_URL }}js/leaflet.label.js"></script>
+    <script src="{{ STATIC_URL }}js/leaflet.awesome-markers.js"></script>
         
 </head>
 
@@ -25,8 +37,8 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#">Resources</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="{% url 'assault_app_resources' %}">Resources</a></li>
+            <li><a href="{% url 'assault_app_about' %}">About</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -40,6 +52,8 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
+    <div id="map"></div>
+    <script src="{{ STATIC_URL }}js/myMap.js"></script>
     <br>
     <br>
     <div class="container">

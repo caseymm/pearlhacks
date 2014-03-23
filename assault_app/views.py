@@ -19,11 +19,13 @@ def school(request, pk):
         form = CommentForm()
     #d = dict(school=school, comments=comments, form=CommentForm(), user=request.user)
     #d.update(csrf(request))
+    school_list = Schools.objects.all()
     context = {
         'school': school,
         'comments': comments,
         'form': form,
 #        'user': user,
+        'schools': school_list,
     }
     return render(request, "assault_app/school.html", context)
     #return render_to_response("assault_app/school.html", d)
@@ -50,15 +52,19 @@ def all_schools(request):
     
     return render(request, 'assault_app/all_schools.html', context)
 
-def resources(request, pk):
+def resources(request):
+    school_list = Schools.objects.all()
     context = {
-        
+        'school': school,
+        'schools': school_list,
     }
     return render(request, "assault_app/resources.html", context)
 
-def about(request, pk):
+def about(request):
+    school_list = Schools.objects.all()
     context = {
-        
+        'school': school,
+        'schools': school_list,
     }
     return render(request, "assault_app/about.html", context)
 
