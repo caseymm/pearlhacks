@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% load url from future %}
+
+{% block content %}
+<div class="row">
+  <div class="col-xs-12">
+    {% for school in schools %}
+        <a href="{{school.id}}"><h4>{{school.title}}</h4></a>
+        {{school.content}}       
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}

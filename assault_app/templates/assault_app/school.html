@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% load url from future %}
+
+{% block content %}
+<div class="row">
+  <div class="col-xs-12">
+    <h3>{{school.title}}</h3>
+    <hr>
+    Created: {{school.creation_date}}
+    <br>
+    Modified: {{school.last_modified}}
+    <br>
+    <p>{{school.content}}</p>
+  </div>
+</div>
+
+{% endblock %}
