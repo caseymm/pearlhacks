@@ -7,6 +7,24 @@
   <div class="col-xs-12">
     <h3>{{school.name}}</h3>
     <hr>
+        <!-- Comments  -->
+        {% if comments %}
+            <p>Comments:</p>
+        {% endif %}
+        
+        {% for comment in comments %}
+            <div class="comment">
+                <div class="time">{{ comment.created }} | {{ comment.author }}</div>
+                <div class="body">{{ comment.body|linebreaks }}</div>
+            </div>
+        {% endfor %}
+        
+        <div id="addc">Add a comment</div>
+        <!-- Comment form  -->
+        <form action="/" method="POST">{% csrf_token %}
+                <p>{{ form.body }}</p>
+            <div id="submit"><input type="submit" value="Submit"></div>
+        </form>
     <!--Created: {{school.creation_date}}
     <br>
     Modified: {{school.last_modified}}

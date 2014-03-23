@@ -1,6 +1,5 @@
 from django.db import models
-
-# Create your models here.
+from django.forms import ModelForm
 
 class Schools(models.Model):
     name = models.CharField(unique=True, max_length=100)
@@ -28,6 +27,17 @@ class Schools(models.Model):
     def __unicode__(self):
         return self.name
         return self.creation_date 
+
+class Comment(models.Model):
+    created = models.DateTimeField(auto_now_add=True)
+    author = models.CharField(max_length=60)
+    body = models.TextField()
+    school = models.ForeignKey(Schools)
+
+
+class CommentForm(ModelForm):
+    class Meta:
+        model = Comment
 
 #class SchoolStoryFeed(models.Model):
 #    schools = models.ForeignKey(Schools)
