@@ -17,6 +17,19 @@ p{
     font-size: 14px;
     line-height: 18px;
 }
+.blox-search-title{
+    font-size: 16px;
+}
+img{
+    width: 100%;
+}
+.pagination{
+    display: none !important;
+}
+
+#sparkline{
+    margin-left: 15px;
+}
 
 .container{
     width:80%;

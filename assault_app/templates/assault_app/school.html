@@ -9,6 +9,7 @@
         <hr>
     </div>
 </div>
+
 <div class="row">
     <div class="col-xs-8">
     <div class="panel panel-default">
@@ -23,7 +24,7 @@
             <tbody>
                 <tr><td>Location:</td><td>{{ school.city }}, {{ school.state }}</td></tr>
                 <tr><td>Population:</td><td>{{ school.population }}</td></tr>
-                <tr><td>Male-Female Population:</td><td>{{ school.male_ratio }} percent male, {{ school.female_ratio }} percent female</td></tr>
+                <tr><td>Male-Female Population:</td><td>{{ school.male_ratio }} percent male, {{ school.female_ratio }} percent female <span id="sparkline"></span></td></tr>
                 <tr><td>Public or Private:</td><td>{{ school.priv_pub }}</td></tr>
                 <tr><td>Women in Greek Life:</td><td>{{ school.female_greeklife }} percent of female students in Greek life</td></tr>
                 <tr><td>Men in Greek Life:</td><td>{{ school.male_greeklife }} percent of male students in Greek life</td></tr>
