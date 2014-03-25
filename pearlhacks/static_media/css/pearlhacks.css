@@ -64,6 +64,13 @@ img{
     text-decoration: none;
     color: #000000;
 }
+
+.scrollable-menu {
+    height: auto;
+    max-height: 600px;
+    overflow-x: hidden;
+}
+
 .style-box{
     border-top: 20px solid black;
     border-radius: 10px;

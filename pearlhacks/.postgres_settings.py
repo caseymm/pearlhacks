@@ -1,4 +1,5 @@
 # Culture of Yes settings file
+# Make sure this is in the settings.py file before pushing to git!!!
 
 import os
 

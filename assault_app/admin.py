@@ -4,7 +4,7 @@ from django.contrib import admin
 from assault_app.models import Schools, Comment
 
 class SchoolsAdmin(admin.ModelAdmin):
-    search_fields = ('title',)
+    search_fields = ('name',)
 
 admin.site.register(Schools, SchoolsAdmin)
 
