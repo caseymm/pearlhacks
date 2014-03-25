@@ -3,100 +3,104 @@
 {% load url from future %}
 
 {% block content %}
-<div class="row">
-    <div class="col-xs-12">
-        <h3>{{ school.name }}</h3>
-        <hr>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-xs-8">
-    <div class="panel panel-default">
-        <div class="panel-body">
-        <div class="schoolh3">Profile</div>
-        </div>
-        <div class="panel-footer">
-        <table class="table">
-            <thead>
-                
-            </thead>
-            <tbody>
-                <tr><td>Location:</td><td>{{ school.city }}, {{ school.state }}</td></tr>
-                <tr><td>Population:</td><td>{{ school.population }}</td></tr>
-                <tr><td>Male-Female Population:</td><td>{{ school.male_ratio }} percent male, {{ school.female_ratio }} percent female <span id="sparkline"></span></td></tr>
-                <tr><td>Public or Private:</td><td>{{ school.priv_pub }}</td></tr>
-                <tr><td>Women in Greek Life:</td><td>{{ school.female_greeklife }} percent of female students in Greek life</td></tr>
-                <tr><td>Men in Greek Life:</td><td>{{ school.male_greeklife }} percent of male students in Greek life</td></tr>
-            </tbody>
-        </table>
+<div class="showMap" id="map"></div>
+<div class="container">
+    <a class="toggleMap">Toggle Map</a>
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>{{ school.name }}</h3>
+            <hr>
         </div>
     </div>
-    </div>
-    <div class="col-xs-4">
-    <div class="panel panel-default">
-        <div class="panel-body">
-    <div class="schoolh3">Resources</div>
-        </div>
-        <div class="panel-footer">
-    <ul>
-        <li><a href="{{ school.campus_health }}" target="blank">Campus Health</a></li>
-        <li><a href="{{ school.sexual_health }}" target="blank">Sexual Health</a></li>
-        <li><a href="{{ school.counseling }}" target="blank">Counseling</a></li>
-    </ul>
-        </div>
-    </div>
-    </div>
-</div>
-<div class="row">
-    <div class="col-xs-8">
-        <div class="panel panel-default">
-        <div class="panel-body">
-    <div class="schoolh3">Survivor Stories</div>
-        </div>
-        <div class="panel-footer">
-            <!-- Comments  -->
-        {% if comments %}
-            <p>Comments:</p>
-        {% endif %}
-        
-        {% for comment in comments %}
-            <div class="comment">
-                <div class="time">{{ comment.created }} | {{ comment.author }}</div>
-                <div class="body">{{ comment.body|linebreaks }}</div>
-            </div>
-        {% endfor %}
-        
-        <div id="addc">Add a comment</div>
-        <!-- Comment form  -->
-        <form action="/" method="POST">{% csrf_token %}
-                <p>{{ form.body }}</p>
-            <div id="submit"><input type="submit" value="Submit"></div>
-        </form>
-    <!--Created: {{school.creation_date}}
-    <br>
-    Modified: {{school.last_modified}}
-    <br>-->
     
+    <div class="row">
+        <div class="col-xs-8">
+        <div class="panel panel-default">
+            <div class="panel-body">
+            <div class="schoolh3">Profile</div>
+            </div>
+            <div class="panel-footer">
+            <table class="table">
+                <thead>
+                    
+                </thead>
+                <tbody>
+                    <tr><td>Location:</td><td>{{ school.city }}, {{ school.state }}</td></tr>
+                    <tr><td>Population:</td><td>{{ school.population }}</td></tr>
+                    <tr><td>Male-Female Population:</td><td>{{ school.male_ratio }} percent male, {{ school.female_ratio }} percent female <span id="sparkline"></span></td></tr>
+                    <tr><td>Public or Private:</td><td>{{ school.priv_pub }}</td></tr>
+                    <tr><td>Women in Greek Life:</td><td>{{ school.female_greeklife }} percent of female students in Greek life</td></tr>
+                    <tr><td>Men in Greek Life:</td><td>{{ school.male_greeklife }} percent of male students in Greek life</td></tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+        </div>
+        <div class="col-xs-4">
+        <div class="panel panel-default">
+            <div class="panel-body">
+        <div class="schoolh3">Resources</div>
+            </div>
+            <div class="panel-footer">
+        <ul>
+            <li><a href="{{ school.campus_health }}" target="blank">Campus Health</a></li>
+            <li><a href="{{ school.sexual_health }}" target="blank">Sexual Health</a></li>
+            <li><a href="{{ school.counseling }}" target="blank">Counseling</a></li>
+        </ul>
+            </div>
+        </div>
         </div>
     </div>
-    </div>
-    <div class="col-xs-4">
-    <div class="panel panel-default">
-        <div class="panel-body">
-        <div class="schoolh3">Newsfeed</div>
+    <div class="row">
+        <div class="col-xs-8">
+            <div class="panel panel-default">
+            <div class="panel-body">
+        <div class="schoolh3">Survivor Stories</div>
+            </div>
+            <div class="panel-footer">
+                <!-- Comments  -->
+            {% if comments %}
+                <p>Comments:</p>
+            {% endif %}
+            
+            {% for comment in comments %}
+                <div class="comment">
+                    <div class="time">{{ comment.created }} | {{ comment.author }}</div>
+                    <div class="body">{{ comment.body|linebreaks }}</div>
+                </div>
+            {% endfor %}
+            
+            <div id="addc">Add a comment</div>
+            <!-- Comment form  -->
+            <form action="/" method="POST">{% csrf_token %}
+                    <p>{{ form.body }}</p>
+                <div id="submit"><input type="submit" value="Submit"></div>
+            </form>
+        <!--Created: {{school.creation_date}}
+        <br>
+        Modified: {{school.last_modified}}
+        <br>-->
+        
+            </div>
         </div>
-        <div class="panel-footer">
-        <p>{{school.content_split | safe}}</p>
+        </div>
+        <div class="col-xs-4">
+        <div class="panel panel-default">
+            <div class="panel-body">
+            <div class="schoolh3">Newsfeed</div>
+            </div>
+            <div class="panel-footer">
+            <p>{{school.content_split | safe}}</p>
+            </div>
+        </div>
         </div>
     </div>
+    <div class="row">
+      <div class="col-xs-12">
+    
+    
+      </div>
     </div>
-</div>
-<div class="row">
-  <div class="col-xs-12">
-
-
-  </div>
 </div>
 
 

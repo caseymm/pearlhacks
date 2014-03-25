@@ -3,13 +3,17 @@
 {% load url from future %}
 
 {% block content %}
-<div class="row">
-  <div class="col-xs-12">
-    {% for school in schools %}
-        <a href="{{school.id}}"><h4>{{school.name}}</h4></a>
-        
-    {% endfor %}
-    {{data}}
+<div class="showMap" id="map"></div>
+<div class="container">
+    <a class="toggleMap">Toggle Map</a>
+  <div class="row">
+    <div class="col-xs-12">
+      {% for school in schools %}
+          <a href="{{school.id}}"><h4>{{school.name}}</h4></a>
+          
+      {% endfor %}
+      {{data}}
+    </div>
   </div>
 </div>
 

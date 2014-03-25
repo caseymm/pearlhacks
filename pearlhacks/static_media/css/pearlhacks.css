@@ -17,6 +17,12 @@ p{
     font-size: 14px;
     line-height: 18px;
 }
+
+.toggleMap{
+    cursor: pointer;
+    /*float: right;*/
+}
+
 .blox-search-title{
     font-size: 16px;
 }

@@ -3,14 +3,18 @@
 {% load url from future %}
 
 {% block content %}
-<div style="font-size: 20px">Resources</div>
-
-<ul class="resources">
-<li><a href="http://nsvrc.org/">National Sexual Violence Resource Center</a></li>
-<li><a href="https://www.rainn.org/get-help/sexual-assault-and-rape-international-resources">RAINN: The Rape, Abuse & Incest National Network</a></li>
-<li><a href="https://www.rainn.org/get-help/national-sexual-assault-hotline">RAINN Hotline</a></li>
-<li><a href="http://www.feminist.org/911/resources.html">Feminist.org</a></li>
-<li>A rape crisis center exists in every major city in the US<a href="http://www.rapecrisis.com/">Find yours here</a></li>
-</ul>
+<div class="hideMap" id="map"></div>
+<br>
+<div class="container">
+    <a class="toggleMap">Toggle Map</a>
+    <div style="font-size: 20px">Resources</div>
+    <ul class="resources">
+        <li><a href="http://nsvrc.org/">National Sexual Violence Resource Center</a></li>
+        <li><a href="https://www.rainn.org/get-help/sexual-assault-and-rape-international-resources">RAINN: The Rape, Abuse & Incest National Network</a></li>
+        <li><a href="https://www.rainn.org/get-help/national-sexual-assault-hotline">RAINN Hotline</a></li>
+        <li><a href="http://www.feminist.org/911/resources.html">Feminist.org</a></li>
+        <li>A rape crisis center exists in every major city in the US<a href="http://www.rapecrisis.com/">Find yours here</a></li>
+    </ul>
+</div>
 
 {% endblock %}

@@ -8,7 +8,7 @@
     <title>{% block title %}Culture of Yes{% endblock %}</title>
     <link href="{{ STATIC_URL }}css/bootstrap.css" rel="stylesheet">
     <link href="{{ STATIC_URL }}css/pearlhacks.css" rel="stylesheet">
-        <link rel="stylesheet" href="{{ STATIC_URL }}css/leaflet.css" />
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/leaflet.css" />
     
     <!--<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />-->
     <link rel="stylesheet" href="{{ STATIC_URL }}css/leaflet.awesome-markers.css" />
@@ -36,17 +36,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{% url 'assault_app_all_schools' %}">Culture of Yes</a>
+          <a class="navbar-brand" id="navTitle" href="{% url 'assault_app_all_schools' %}">Culture of Yes</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="{% url 'assault_app_resources' %}">Resources</a></li>
-            <li><a href="{% url 'assault_app_about' %}">About</a></li>
+            <li id="resources"><a href="{% url 'assault_app_resources' %}">Resources</a></li>
+            <li id="about"><a href="{% url 'assault_app_about' %}">About</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 {% for school in schools %}
-                    <li><a href="{{school.id}}">{{school.name}}</a></li>     
+                <!-- DON'T FORGET to change this out before going live -->
+                    <li class="schoolDrop"><a href="http://localhost:8000/{{school.id}}">{{school.name}}</a></li>     
                 {% endfor %}
                 
               </ul>
@@ -57,18 +58,23 @@
     </div>
     <br>
     <br>
-    <div id="map"></div>
-    <script src="{{ STATIC_URL }}js/myMap.js"></script>
     
-    <div class="container">
         {% block content %}
            
         {% endblock %}
-    </div>
                   
-        
+    <script src="{{ STATIC_URL }}js/myMap.js"></script>    
     <script>
+    $(".hideMap").hide();
+    $(".showMap").show();
+    $(".toggleMap").click(function(){
+        $(".hideMap").slideToggle();
+      });
+    $(".toggleMap").click(function(){
+        $(".showMap").slideToggle();
+      });
     $("#sparkline").sparkline([{{ school.male_ratio }},{{ school.female_ratio }}], {type: 'pie'});
+    
 </script>
     
     
