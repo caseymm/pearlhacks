@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% load url from future %}
+
+{% block content %}
+<div class="showMap" id="map"></div>
+<div class="container">
+    <a class="toggleMap">Toggle Map</a>
+
+            <div id="addc">Add a comment</div>
+            <!-- Comment form  -->
+            <form action="/add_comment.html/" method="POST">{% csrf_token %}
+                    <p>{{form.as_p}}</p>
+                <div id="submit"><input type="submit" value="Submit"></div>
+            </form>
+</div>
+        
+
+{% endblock %}

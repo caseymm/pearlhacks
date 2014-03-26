@@ -6,30 +6,30 @@
 <html lang=en>
 <head>
     <title>{% block title %}Culture of Yes{% endblock %}</title>
+
     <link href="{{ STATIC_URL }}css/bootstrap.css" rel="stylesheet">
     <link href="{{ STATIC_URL }}css/pearlhacks.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ STATIC_URL }}css/leaflet.css" />
-    
-    <!--<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />-->
+<!--     <link rel="stylesheet" href="{{ STATIC_URL }}css/leaflet.css" />
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
     <link rel="stylesheet" href="{{ STATIC_URL }}css/leaflet.awesome-markers.css" />
-    <!--<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">-->
-    <link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap.css" />
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet"> -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ STATIC_URL }}css/leaflet.label.css" />
+    <!-- <link rel="stylesheet" href="{{ STATIC_URL }}css/leaflet.label.css" /> -->
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/bootstrap-select.css">
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
     
-    <script src="{{ STATIC_URL }}js/leaflet.js"></script>
-    <script src="{{ STATIC_URL }}js/leaflet.label.js"></script>
-    <script src="{{ STATIC_URL }}js/leaflet.awesome-markers.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="{{ STATIC_URL }}js/spark.js"></script>
     <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap-select.js"></script>
     
+    
         
 </head>
 
 <body>
+<div style="margin-bottom: 5px">
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -45,8 +45,9 @@
           <ul class="nav navbar-nav">
             <li id="resources"><a href="{% url 'assault_app_resources' %}">Resources</a></li>
             <li id="about"><a href="{% url 'assault_app_about' %}">About</a></li>
+            <li id="about"><a href="{% url 'assault_app_add_comment' %}">Add Story</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Colleges <b class="caret"></b></a>
               <ul class="dropdown-menu scrollable-menu">
                 {% for school in schools %}
                 <!-- DON'T FORGET to change this out before going live -->
@@ -59,14 +60,14 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
+</div>
     <br>
     <br>
-    
         {% block content %}
            
         {% endblock %}
                   
-    <script src="{{ STATIC_URL }}js/myMap.js"></script>    
+    <script src="{{ STATIC_URL }}js/mapbox.js"></script>    
     <script>
     $(".hideMap").hide();
     $(".showMap").show();
