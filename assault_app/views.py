@@ -30,7 +30,6 @@ def school(request, pk):
     }
     return render(request, "assault_app/school.html", context)
     #return render_to_response("assault_app/school.html", d)
-    
 
 def all_schools(request):
     school_list = Schools.objects.all()
@@ -52,6 +51,23 @@ def all_schools(request):
     }
     
     return render(request, 'assault_app/all_schools.html', context)
+
+
+def add_comment(request):
+    
+    if request.method == 'POST':
+        form = CommentForm(request.POST) # A form bound to the POST data
+        if form.is_valid(): # All validation rules pass
+            author = form.cleaned_data['author']
+            body = form.cleaned_data['body']
+            school = form.cleaned_data['school']
+            form.save()
+            #content = Comment.objects.create(school = school, author = author, body = body)
+        return render(request, 'assault_app/add_comment.html', {'form': form})
+
+    form = CommentForm()
+
+    return render(request, "assault_app/add_comment.html", {'form': form})
 
 def resources(request):
     school_list = Schools.objects.all()
