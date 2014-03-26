@@ -80,6 +80,31 @@
         "fields": {
     "content": "",
 
+            "name": "University of Arkansas at Little Rock",
+            "population": "9,970",
+            "city": "Little Rock",
+            "state": "Arkansas",
+            "newspaper": "The Forum",
+            "newspaper_link": "http://ualr.edu/",
+            "newspaper_sexualassault": "http://ualr.edu/forum/?s=sexual+assault&x=0&y=0",
+            "male_ratio": "42",
+            "female_ratio": "58",
+            "priv_pub": "Public",
+            "male_greeklife": "2",
+            "female_greeklife": "2",
+            "campus_health": "http://ualr.edu/health/",
+            "sexual_health": "http://ualr.edu/health-1qgqy/std-screening-and-treatment/",
+            "counseling": "http://ualr.edu/counseling/",
+            "lat": "34.7225",
+            "longitude": "92.3406"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "assault_app.Schools",
+        "fields": {
+    "content": "",
+
             "name": "The University of Southern California",
             "population": "18,316",
             "city": "Los Angeles",
@@ -100,7 +125,7 @@
         }
     },
     {
-        "pk": 5,
+        "pk": 6,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -125,7 +150,7 @@
         }
     },
     {
-        "pk": 6,
+        "pk": 7,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -150,7 +175,7 @@
         }
     },
     {
-        "pk": 7,
+        "pk": 8,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -175,7 +200,7 @@
         }
     },
     {
-        "pk": 8,
+        "pk": 9,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -200,7 +225,7 @@
         }
     },
     {
-        "pk": 9,
+        "pk": 10,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -225,7 +250,7 @@
         }
     },
     {
-        "pk": 10,
+        "pk": 11,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -250,7 +275,7 @@
         }
     },
     {
-        "pk": 11,
+        "pk": 12,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -275,7 +300,7 @@
         }
     },
     {
-        "pk": 12,
+        "pk": 13,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -300,7 +325,7 @@
         }
     },
     {
-        "pk": 13,
+        "pk": 14,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -325,32 +350,32 @@
         }
     },
     {
-        "pk": 14,
+        "pk": 15,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
 
-            "name": "Universtiy of Iowa",
-            "population": "21,974",
-            "city": "Iowa City",
+            "name": "Iowa State University",
+            "population": "27,659",
+            "city": "Ames",
             "state": "Iowa",
-            "newspaper": "The Daily Iowan",
-            "newspaper_link": "http://www.dailyiowan.com/",
-            "newspaper_sexualassault": "http://www.google.com/cse?cx=partner-pub-5821368584002875%3A6dpyr5-d3wu&ie=ISO-8859-1&q=sexual+assault&sa=Search&siteurl=www.dailyiowan.com%2F&ref=&ss=2576j545536j14#gsc.tab=0&gsc.q=sexual%20assault&gsc.page=1",
-            "male_ratio": 48,
-            "female_ratio": 52,
+            "newspaper": "Iowa State Daily",
+            "newspaper_link": "http://www.iowastatedaily.com/",
+            "newspaper_sexualassault": "http://www.iowastatedaily.com/search/?t=article&q=sexual+assault",
+            "male_ratio": 43,
+            "female_ratio": 57,
             "priv_pub": "Public",
-            "male_greeklife": "12%",
+            "male_greeklife": "14%",
             "female_greeklife": "17%",
-            "campus_health": "http://studenthealth.uiowa.edu/",
-            "sexual_health": "http://studenthealth.uiowa.edu/services/self-care-guide/sexual-health",
-            "counseling": "http://counseling.studentlife.uiowa.edu/",
-            "lat": 41.6500,
-            "longitude": 91.5333
+            "campus_health": "http://www.cyclonehealth.org/",
+            "sexual_health": "https://sodb-stuorg.sws.iastate.edu/view.php?id=1861",
+            "counseling": "http://www.counseling.iastate.edu/?redirected=",
+            "lat": 42.0239,
+            "longitude": 93.6476
         }
     },
     {
-        "pk": 15,
+        "pk": 16,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -375,7 +400,7 @@
         }
     },
     {
-        "pk": 16,
+        "pk": 17,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -400,7 +425,7 @@
         }
     },
     {
-        "pk": 17,
+        "pk": 18,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -425,7 +450,7 @@
         }
     },
     {
-        "pk": 18,
+        "pk": 19,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -451,7 +476,7 @@
     },
 
 {
-        "pk": 19,
+        "pk": 20,
         "model": "assault_app.Schools",
         "fields": {
         "content": "",
@@ -476,33 +501,33 @@
         }
     },
     {
-        "pk": 20,
+        "pk": 21,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
 
-            "name": "Harvard College",
-            "population": "26,487",
-            "city": "Boston",
+            "name": "Massachusetts Institute of Technology",
+            "population": "4,528",
+            "city": "Cambridge",
             "state": "Massachusetts",
-            "newspaper": "The Harvard Crimson",
-            "newspaper_link": "http://www.thecrimson.com/",
-            "newspaper_sexualassault": "http://www.thecrimson.com/search/?cx=013815813102981840311%3Aaw6l9tjs1a0&cof=FORID%3A10&ie=UTF-8&q=sexual+assault&sa= ",
-            "male_ratio": 48,
-            "female_ratio": 52,
+            "newspaper": "The Tech",
+            "newspaper_link": "http://tech.mit.edu/",
+            "newspaper_sexualassault": "http://tech.mit.edu/search.html?cx=000823599697007823270%3Aqvanwm1hj34&cof=FORID%3A11&q=sexual+assault",
+            "male_ratio": 45,
+            "female_ratio": 55,
             "priv_pub": "Private",
-            "male_greeklife": "0%",
-            "female_greeklife": "0%",
-            "campus_health": "http://huhs.harvard.edu/Home.aspx",
-            "sexual_health": "http://www.health.harvard.edu/category/womens-health",
-            "counseling": "http://huhs.harvard.edu/HealthServices/StudentMentalHealthServices.aspx",
-            "lat": 42.3744,
-            "longitude": 71.1169
+            "male_greeklife": "49%",
+            "female_greeklife": "32%",
+            "campus_health": "http://medweb.mit.edu/",
+            "sexual_health": "http://medweb.mit.edu/wellness/programs/sexual_health.html",
+            "counseling": "http://medweb.mit.edu/directory/services/mental_health.html",
+            "lat": 42.3598,
+            "longitude": 71.0921
         }
     },
 
 {
-        "pk": 21,
+        "pk": 22,
         "model": "assault_app.Schools",
         "fields": {
         "content": "",
@@ -527,57 +552,57 @@
         }
     },
     {
-        "pk": 22,
-        "model": "assault_app.Schools",
-        "fields": {
-    "content": "",
-
-            "name": "University of Minnesota",
-            "population": "34,469 ",
-            "city": "Minneapolis",
-            "state": "Minnesota",
-            "newspaper": "The Minesota Daily",
-            "newspaper_link": "http://www.mndaily.com/",
-            "newspaper_sexualassault": "http://www.mndaily.com/search?query=sexual+assault&sa=Search",
-            "male_ratio": 51,
-            "female_ratio": 49,
-            "priv_pub": "Public",
-            "male_greeklife": "0%",
-            "female_greeklife": "0%",
-            "campus_health": "http://www.bhs.umn.edu/index.htm",
-            "sexual_health": "http://olin.msu.edu/healthed/sexualwellness/",
-            "counseling": "http://www.counseling.msu.edu/",
-            "lat": 44.9753,
-            "longitude": 93.2342
-        }
-    },
-    {
         "pk": 23,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
 
-            "name": "University of Mississippi",
-            "population": "16,677 ",
-            "city": "University",
-            "state": "Mississippi",
-            "newspaper": "The Daily Mississippian",
-            "newspaper_link": "http://thedmonline.com/",
-            "newspaper_sexualassault": "http://thedmonline.com/?s=sexual+assault ",
-            "male_ratio": 55,
-            "female_ratio": 45,
+            "name": "Minnesota State University, Mankato",
+            "population": "13,494",
+            "city": "Mankato",
+            "state": "Minnesota",
+            "newspaper": "The MSU Reporter",
+            "newspaper_link": "http://themsureporter.com/",
+            "newspaper_sexualassault": "http://themsureporter.com/?s=sexual+assault",
+            "male_ratio": 50,
+            "female_ratio": 50,
             "priv_pub": "Public",
-            "male_greeklife": "29%",
-            "female_greeklife": "36%",
-            "campus_health": "http://www.bhs.umn.edu/index.htm",
-            "sexual_health": "http://www.umc.edu/whrc/",
-            "counseling": "http://counseling.olemiss.edu/",
-            "lat": 34.3663,
-            "longitude": 89.5368
+            "male_greeklife": "0%",
+            "female_greeklife": "0%",
+            "campus_health": "http://www.mnsu.edu/shs/",
+            "sexual_health": "http://www.mnsu.edu/shs/std.html",
+            "counseling": "http://www.mnsu.edu/counseling/",
+            "lat": 44.1466,
+            "longitude": 93.9981
         }
     },
     {
         "pk": 24,
+        "model": "assault_app.Schools",
+        "fields": {
+    "content": "",
+
+            "name": "Mississippi State University",
+            "population": "16,399",
+            "city": "University",
+            "state": "Mississippi",
+            "newspaper": "The Reflector",
+            "newspaper_link": "http://www.reflector-online.com/",
+            "newspaper_sexualassault": "http://www.reflector-online.com/search/?t=article&d1=1+year+ago&q=sexual+assault",
+            "male_ratio": 52,
+            "female_ratio": 48,
+            "priv_pub": "Public",
+            "male_greeklife": "1%",
+            "female_greeklife": "1%",
+            "campus_health": "http://www.health.msstate.edu/",
+            "sexual_health": "http://www.health.msstate.edu/health/sexual_health_stis.php",
+            "counseling": "http://www.health.msstate.edu/scs/",
+            "lat": 33.4537,
+            "longitude": 88.7900
+        }
+    },
+    {
+        "pk": 25,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -602,7 +627,7 @@
         }
     },
     {
-        "pk": 25,
+        "pk": 26,
         "model": "assault_app.Schools",
         "fields": {
             "content": "",
@@ -628,7 +653,7 @@
     },
 
 {
-        "pk": 26,
+        "pk": 27,
         "model": "assault_app.Schools",
         "fields": {
             "content":"",
@@ -654,32 +679,32 @@
         }
     },
     {
-        "pk": 27,
+        "pk": 28,
         "model": "assault_app.Schools",
         "fields": {
             "content": "",
 
-            "name": "University of Nevada at Reno",
-            "population": "15,082",
-            "city": "Reno",
+            "name": "University of Nevada at Las Vegas",
+            "population": "22,432",
+            "city": "Las Vegas",
             "state": "Nevada",
-            "newspaper": "The Nevada Sagebrush",
-            "newspaper_link": "http://nevadasagebrush.com/",
-            "newspaper_sexualassault": "http://nevadasagebrush.com/?s=sexual+assault ",
-            "male_ratio": 47,
-            "female_ratio": 53,
+            "newspaper": "The Rebel Yell",
+            "newspaper_link": "http://www.unlvrebelyell.com/",
+            "newspaper_sexualassault": "http://www.unlvrebelyell.com/?s=sexual+assault",
+            "male_ratio": 45,
+            "female_ratio": 55,
             "priv_pub": "Public",
-            "male_greeklife": "0%",
-            "female_greeklife": "0%",
-            "campus_health": "http://www.unr.edu/shc/",
-            "sexual_health": "http://www.unr.edu/shc/hep/sexual_health.html",
-            "counseling": "http://www.unr.edu/counseling",
-            "lat": 39.5458,
-            "longitude": 119.8167
+            "male_greeklife": "5%",
+            "female_greeklife": "3%",
+            "campus_health": "http://www.unlv.edu/srwc/health-center",
+            "sexual_health": "http://www.unlv.edu/srwc/wellness-promotion/sexual-health",
+            "counseling": "http://www.unlv.edu/srwc/caps",
+            "lat": 36.1078,
+            "longitude": 115.1438
         }
     },
     {
-        "pk": 28,
+        "pk": 29,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -704,7 +729,7 @@
         }
     },
     {
-        "pk": 29,
+        "pk": 30,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -729,7 +754,7 @@
         }
     },
     	{
-		"pk":30,
+		"pk":31,
 		"model":"assault_app.Schools",
 		"fields":{
           "content": "",
@@ -753,7 +778,7 @@
 		}
 	},
 		{
-		"pk":31,
+		"pk":32,
 		"model":"assault_app.Schools",
 		"fields":{
           "content": "",
@@ -778,7 +803,7 @@
 		}
 	},
 		{
-		"pk":32,
+		"pk":33,
 		"model":"assault_app.Schools",
 		"fields":{
           "content": "",
@@ -804,7 +829,7 @@
 	},
 
 		{
-		"pk":33,
+		"pk":34,
 		"model":"assault_app.Schools",
 		"fields":{
           "content": "",
@@ -830,7 +855,7 @@
 	},
 
 		{
-		"pk":34,
+		"pk":35,
 		"model":"assault_app.Schools",
 		"fields":{
           "content": "",
@@ -855,7 +880,7 @@
 		}
 	},
 		{
-		"pk":35,
+		"pk":36,
 		"model":"assault_app.Schools",
 		"fields":{
           "content": "",
@@ -881,7 +906,7 @@
 	},
 
 		{
-		"pk":36,
+		"pk":37,
 		"model":"assault_app.Schools",
 		"fields":{
           "content": "",
@@ -907,7 +932,7 @@
 	},
 
 		{
-		"pk":37,
+		"pk":38,
 		"model":"assault_app.Schools",
 		"fields":{
           "content": "",
@@ -933,33 +958,33 @@
 	},
 
 		{
-		"pk":38,
+		"pk":39,
 		"model":"assault_app.Schools",
 		"fields":{
           "content": "",
-			"name": "Brown University",
-			"population":"6,435",
+			"name": "Rhode Island College",
+			"population":"7,505",
 			"city":"Providence",
 			"state":"Rhode Island",
-			"newspaper":"The Brown Daily Herald",
-			"newspaper_link":"http://www.browndailyherald.com/",
-			"newspaper_sexualassault":"http://www.browndailyherald.com/?s=sexual+assault",
-			"male_ratio": 47,
-			"female_ratio": 53,
-			"priv_pub":"Private",
-			"male_greeklife":"15%",
-			"female_greeklife":"5%",
-			"campus_health":"http://www.brown.edu/Student_Services/Health_Services/",
-			"sexual_health":"",
-			"counseling":"http://brown.edu/Student_Services/Health_Services/services/appointments.html",
-			"lat":"41.8262",
-			"longitude":"71.4032"
+			"newspaper":"The Anchor",
+			"newspaper_link":"http://www.theanchoronline.org/",
+			"newspaper_sexualassault":"http://www.theanchoronline.org/?s=sexual+assault",
+			"male_ratio": 67,
+			"female_ratio": 33,
+			"priv_pub":"Public",
+			"male_greeklife":"0%",
+			"female_greeklife":"0%",
+			"campus_health":"http://www.ric.edu/healthservices/",
+			"sexual_health":"http://www.ric.edu/healthservices/services.php",
+			"counseling":"http://www.ric.edu/counselingctr/",
+			"lat":"41.8422",
+			"longitude":"71.4612"
 
 		}
 	},
 
     {
-        "pk": 39,
+        "pk": 40,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -984,7 +1009,7 @@
         }
     },
     {
-        "pk": 40,
+        "pk": 41,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -1009,7 +1034,7 @@
         }
     },
     {
-        "pk": 41,
+        "pk": 42,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -1034,7 +1059,7 @@
         }
     },
     {
-        "pk": 42,
+        "pk": 43,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -1059,7 +1084,7 @@
         }
     },
     {
-        "pk": 43,
+        "pk": 44,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -1084,7 +1109,7 @@
         }
     },
     {
-        "pk": 44,
+        "pk": 45,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -1109,7 +1134,7 @@
         }
     },
     {
-        "pk": 45,
+        "pk": 46,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -1134,7 +1159,7 @@
         }
     },
     {
-        "pk": 46,
+        "pk": 47,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -1159,7 +1184,7 @@
         }
     },
     {
-        "pk": 47,
+        "pk": 48,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -1184,7 +1209,7 @@
         }
     },
     {
-        "pk": 48,
+        "pk": 49,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
@@ -1209,7 +1234,7 @@
         }
     },
     {
-        "pk": 49,
+        "pk": 50,
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
