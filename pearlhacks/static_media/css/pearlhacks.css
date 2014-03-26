@@ -3,6 +3,8 @@ body{
     font-weight: 200;
     font-size: 18px;
     line-height: 30px;
+    background-image: url(../images/swirl.png);
+    background-repeat:repeat;
 }
 ol{
     list-style: none;
@@ -10,13 +12,18 @@ ol{
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
 p{
     font-size: 14px;
     line-height: 18px;
 }
+
+/*.subtle{
+    background-image: url(../images/swirl.png);
+    background-repeat:repeat;
+}*/
 
 .toggleMap{
     cursor: pointer;

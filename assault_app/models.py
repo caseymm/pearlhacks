@@ -29,15 +29,15 @@ class Schools(models.Model):
         return self.creation_date 
 
 class Comment(models.Model):
+    school = models.ForeignKey(Schools)
     created = models.DateTimeField(auto_now_add=True)
     author = models.CharField(max_length=60)
     body = models.TextField()
-    school = models.ForeignKey(Schools)
-
 
 class CommentForm(ModelForm):
     class Meta:
         model = Comment
+        fields = ['author', 'body', 'school']
 
 #class SchoolStoryFeed(models.Model):
 #    schools = models.ForeignKey(Schools)

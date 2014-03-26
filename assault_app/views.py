@@ -12,19 +12,21 @@ def school(request, pk):
     if request.method == 'POST':
         form = CommentForm(request.POST) # A form bound to the POST data
         if form.is_valid(): # All validation rules pass
-            comment = form.cleaned_data['comment']
-            form.cleaned_data['comment'] = comment
-            content = Comment.objects.create(school = school, author = "Anonomyous Author", body = comment)
+            body = form.cleaned_data['comment']
+            form.save()
+            #content = Comment.objects.create(school = school, author = "Anonomyous Author", body = comment)
+            #new_comment = Comment.objects.get(pk=1)
+            form = CommentForm(instance=new_comment)
+            form.save()
     else:
         form = CommentForm()
-    #d = dict(school=school, comments=comments, form=CommentForm(), user=request.user)
-    #d.update(csrf(request))
+
     school_list = Schools.objects.all()
     context = {
         'school': school,
         'comments': comments,
         'form': form,
-#        'user': user,
+#       'user': user,
         'schools': school_list,
     }
     return render(request, "assault_app/school.html", context)
