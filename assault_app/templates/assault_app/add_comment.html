@@ -9,7 +9,7 @@
 
             <div id="addc">Add a comment</div>
             <!-- Comment form  -->
-            <form action="/" method="POST">{% csrf_token %}
+            <form action="/add_comment.html/" method="POST">{% csrf_token %}
                     <p>{{form.as_p}}</p>
                 <div id="submit"><input type="submit" value="Submit"></div>
             </form>

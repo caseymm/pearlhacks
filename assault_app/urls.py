@@ -8,4 +8,5 @@ urlpatterns = patterns('',
     url(r'^about/$', views.about, name='assault_app_about'),
     url(r'^(?P<pk>\d+)$', views.school, name='assault_app_school'),
     url(r'^add_comment/$', views.add_comment, name="assault_app_add_comment"),
+    url(r'^add_comment.html/$', views.add_comment, name="post_form_add_comment"),
     )

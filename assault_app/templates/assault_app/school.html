@@ -8,7 +8,7 @@
     <a class="toggleMap">Toggle Map</a>
     <div class="row">
         <div class="col-xs-12">
-            <h3>{{ school.name }}</h3>
+            <div class="schoolHead">{{ school.name }}</div>
             <hr>
         </div>
     </div>
@@ -65,21 +65,10 @@
             
             {% for comment in comments %}
                 <div class="comment">
-                    <div class="time">{{ comment.created }} | {{ comment.author }}</div>
+                    <div class="time">{{ comment.author }} | <span class="commentDate">{{ comment.created }}</span></div>
                     <div class="body">{{ comment.body|linebreaks }}</div>
                 </div>
             {% endfor %}
-            
-            <div id="addc">Add a comment</div>
-            <!-- Comment form  -->
-            <form action="/" method="POST">{% csrf_token %}
-                    <p>{{form.as_p}}</p>
-                <div id="submit"><input type="submit" value="Submit"></div>
-            </form>
-        <!--Created: {{school.creation_date}}
-        <br>
-        Modified: {{school.last_modified}}
-        <br>-->
         
             </div>
         </div>
