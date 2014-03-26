@@ -97,6 +97,20 @@
     </div>
     <div class="row">
       <div class="col-xs-12">
+        
+       
+        <form action="" method="post">
+    
+  
+  <script language="javascript" src="http://www.captcha.cc/cap.js?cap_k=SSLOJDFOZTEVEJmmcgqdBNPnuJiRsZec" type="text/javascript"></script>
+<input type=hidden name=cap_h id=cap_h value="">
+<img border=1 id=cap_i src="http://www.captcha.cc/img.cgi?cap_k=SSLOJDFOZTEVEJmmcgqdBNPnuJiRsZec" align=middle><img align=middle style="margin-left: 4px;" id=cap_r onload="return cap_showReload(event);" src="http://www.captcha.cc/blank.png"><br>
+<input id=cap_t name=cap_t type=text value="" style="margin-top:4px;">
+<input type=submit value="Submit Form" onclick="return cap_valid(event);">
+    
+    <? php $CID = $_ENV{'HTTP_CLIENT_IP'} ? $_ENV{'HTTP_CLIENT_IP'} : $_ENV{'REMOTE_HOST'}; $ok = include("http://www.captcha.cc/val.cgi?cap_k=$KEY&cap_c=$CID&cap_t=".urlencode($_POST('cap_t'))); ?>
+
+    </form>
     
     
       </div>
