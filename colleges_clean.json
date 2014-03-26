@@ -3,8 +3,8 @@
         "pk": 1,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img":"alabama.png",
             "name": "University of Alabama",
             "population": "28,026",
             "city": "Tuscaloosa",
@@ -28,8 +28,8 @@
         "pk": 2,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/alaska.png",
             "name": "University of Alaska Fairbanks",
             "population": "8,131",
             "city": "Fairbanks",
@@ -53,8 +53,8 @@
         "pk": 3,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/arizona.png",
             "name": "The University of Arizona",
             "population": "31,670",
             "city": "Tucson",
@@ -78,8 +78,8 @@
         "pk": 4,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/arkansas.png",
             "name": "University of Arkansas at Little Rock",
             "population": "9,970",
             "city": "Little Rock",
@@ -103,8 +103,8 @@
         "pk": 5,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/california.png",
             "name": "The University of Southern California",
             "population": "18,316",
             "city": "Los Angeles",
@@ -128,8 +128,8 @@
         "pk": 6,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/colorado.png",
             "name": "The University of Colorado Boulder",
             "population": "25,805",
             "city": "Boulder",
@@ -153,8 +153,8 @@
         "pk": 7,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/connecticut.png",
             "name": "The University of Connecticut",
             "population": "17,528",
             "city": "Storrs",
@@ -178,8 +178,8 @@
         "pk": 8,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/delaware.png",
             "name": "The University of Delaware",
             "population": "17,427",
             "city": "Newark",
@@ -203,9 +203,9 @@
         "pk": 9,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
-            "name": "The University of Florida",
+            "content": "",
+            "img":"florida.png",
+            "name" : "The University of Florida",
             "population": "32,776",
             "city": "Gainesville",
             "state": "Florida",
@@ -228,8 +228,8 @@
         "pk": 10,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img":"georgia.png",
             "name": "The University of Georgia",
             "population": "26,259",
             "city": "Athens",
@@ -253,8 +253,8 @@
         "pk": 11,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/hawaii.png",
             "name": "University of Hawai'i at Manoa",
             "population": "14,655",
             "city": "Honolulu",
@@ -278,8 +278,8 @@
         "pk": 12,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/idaho.png",
             "name": "Boise State University",
             "population": "19,042",
             "city": "Boise",
@@ -303,8 +303,8 @@
         "pk": 13,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/illinois.png",
             "name": "University of Illinois at Urbana-Champaign",
             "population": "32,695",
             "city": "Champaign",
@@ -328,8 +328,8 @@
         "pk": 14,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img":"indiana.png",
             "name": "Indiana University Bloomington",
             "population": "36,862",
             "city": "Bloomington",
@@ -353,8 +353,8 @@
         "pk": 15,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/iowa.png",
             "name": "Iowa State University",
             "population": "27,659",
             "city": "Ames",
@@ -378,8 +378,8 @@
         "pk": 16,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/kansas.png",
             "name": "Universtiy of Kansas",
             "population": "21,974",
             "city": "Iowa City",
@@ -403,8 +403,8 @@
         "pk": 17,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/kentucky.png",
             "name": "Universtiy of Kentucky",
             "population": "21,441",
             "city": "Lexington",
@@ -428,8 +428,8 @@
         "pk": 18,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/louisiana.png",
             "name": "Louisiana State University",
             "population": "24,626",
             "city": "Baton Rouge",
@@ -453,8 +453,8 @@
         "pk": 19,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/maine.png",
             "name": "Bates College",
             "population": "1,791",
             "city": "Lewiston",
@@ -479,8 +479,8 @@
         "pk": 20,
         "model": "assault_app.Schools",
         "fields": {
-        "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/maryland.png",
             "name": "University of Maryland",
             "population": "26,487",
             "city": "College Park",
@@ -504,8 +504,8 @@
         "pk": 21,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/massachusetts.png",
             "name": "Massachusetts Institute of Technology",
             "population": "4,528",
             "city": "Cambridge",
@@ -530,8 +530,8 @@
         "pk": 22,
         "model": "assault_app.Schools",
         "fields": {
-        "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/michigan.png",
             "name": "Michigan State University",
             "population": "37,454",
             "city": "East Lansing",
@@ -555,8 +555,8 @@
         "pk": 23,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/minnesota.png",
             "name": "Minnesota State University, Mankato",
             "population": "13,494",
             "city": "Mankato",
@@ -570,7 +570,7 @@
             "male_greeklife": "0%",
             "female_greeklife": "0%",
             "campus_health": "http://www.mnsu.edu/shs/",
-            "sexual_health": "http://www.mnsu.edu/shs/std.html,
+            "sexual_health": "http://www.mnsu.edu/shs/std.html",
             "counseling": "http://www.mnsu.edu/counseling/",
             "lat": 44.1466,
             "longitude": 93.9981
@@ -580,8 +580,8 @@
         "pk": 24,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/mississippi.png",
             "name": "Mississippi State University",
             "population": "16,399",
             "city": "University",
@@ -605,8 +605,8 @@
         "pk": 25,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/missouri.png",
             "name": "University of Missouri at Kansas City",
             "population": "10,247 ",
             "city": "Kansas City",
@@ -631,7 +631,7 @@
         "model": "assault_app.Schools",
         "fields": {
             "content": "",
-
+            "img": "{{ STATIC_URL }}images/icons/montana.png",
             "name": "University of Montana",
             "population": "12,657 ",
             "city": "Missoula",
@@ -657,7 +657,7 @@
         "model": "assault_app.Schools",
         "fields": {
             "content":"",
-            
+            "img": "{{ STATIC_URL }}images/icons/nebraska.png",
             "name": "University of Nebraska",
             "population": "19,376",
             "city": "Lincoln",
@@ -683,7 +683,7 @@
         "model": "assault_app.Schools",
         "fields": {
             "content": "",
-
+            "img": "{{ STATIC_URL }}images/icons/nevada.png",
             "name": "University of Nevada at Las Vegas",
             "population": "22,432",
             "city": "Las Vegas",
@@ -707,8 +707,8 @@
         "pk": 29,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/new_hampshire.png",
             "name": "University of New Hampshire",
             "population": "12,531",
             "city": "Durham",
@@ -732,8 +732,8 @@
         "pk": 30,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/new_jersey.png",
             "name": "Princton University",
             "population": "5,323",
             "city": "Princton",
@@ -757,7 +757,8 @@
 		"pk":31,
 		"model":"assault_app.Schools",
 		"fields":{
-          "content": "",
+                        "content": "",
+                        "img":"new_mexico.png",
 			"name": "University of New Mexico",
 			"population":"21,138",
 			"city":"Albuquerque",
@@ -781,7 +782,8 @@
 		"pk":32,
 		"model":"assault_app.Schools",
 		"fields":{
-          "content": "",
+                        "content": "",
+                        "img":"new_york.png",
 			"name": "New York University",
 			"population":"22,615",
 			"city":"New York",
@@ -806,7 +808,8 @@
 		"pk":33,
 		"model":"assault_app.Schools",
 		"fields":{
-          "content": "",
+                        "content": "",
+                        "img": "{{ STATIC_URL }}images/icons/north_carolina.png",
 			"name": "University of North Carolina at Chapel Hill",
 			"population":"18,370",
 			"city":"Chapel Hill",
@@ -832,7 +835,8 @@
 		"pk":34,
 		"model":"assault_app.Schools",
 		"fields":{
-          "content": "",
+                        "content": "",
+                        "img": "{{ STATIC_URL }}images/icons/north_dakota.png",
 			"name": "North Dakota State University",
 			"population": "11,948",
 			"city":"Fargo",
@@ -858,7 +862,8 @@
 		"pk":35,
 		"model":"assault_app.Schools",
 		"fields":{
-          "content": "",
+                        "content": "",
+                        "img": "{{ STATIC_URL }}images/icons/ohio.png",
 			"name": "Ohio State University",
 			"population":"",
 			"city":"Columbus",
@@ -883,7 +888,8 @@
 		"pk":36,
 		"model":"assault_app.Schools",
 		"fields":{
-          "content": "",
+                        "content": "",
+                        "img": "{{ STATIC_URL }}images/icons/oklahoma.png",
 			"name": "Oklahoma State University",
 			"population":"20,026",
 			"city":"Stillwater",
@@ -909,7 +915,8 @@
 		"pk":37,
 		"model":"assault_app.Schools",
 		"fields":{
-          "content": "",
+                        "content": "",
+                        "img": "{{ STATIC_URL }}images/icons/oregon.png",
 			"name": "University of Oregon",
 			"population":"20,809",
 			"city":"Eugene",
@@ -935,7 +942,8 @@
 		"pk":38,
 		"model":"assault_app.Schools",
 		"fields":{
-          "content": "",
+                        "content": "",
+                        "img": "{{ STATIC_URL }}images/icons/pennsylvania.png",
 			"name": "Pennsylvania State University",
 			"population":"39,192",
 			"city":"University Park",
@@ -961,7 +969,8 @@
 		"pk":39,
 		"model":"assault_app.Schools",
 		"fields":{
-          "content": "",
+                        "content": "",
+                        "img": "{{ STATIC_URL }}images/icons/rhode_island.png",
 			"name": "Rhode Island College",
 			"population":"7,505",
 			"city":"Providence",
@@ -987,8 +996,8 @@
         "pk": 40,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/south_carolina.png",
             "name": "The University of South Carolina",
             "population": "23,363",
             "city": "Columbia",
@@ -1012,8 +1021,8 @@
         "pk": 41,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/south_dakota.png",
             "name": "The University of South Dakota",
             "population": "7,690",
             "city": "Vermillion",
@@ -1037,8 +1046,8 @@
         "pk": 42,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/tennessee.png",
             "name": "Vanderbilt University",
             "population": "6,796",
             "city": "Nashville",
@@ -1062,8 +1071,8 @@
         "pk": 43,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/texas.png",
             "name": "The University of Texas at Austin",
             "population": "",
             "city": "Austin",
@@ -1087,8 +1096,8 @@
         "pk": 44,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/utah.png",
             "name": "The University of Utah",
             "population": "24,840",
             "city": "Salt Lake City",
@@ -1112,8 +1121,8 @@
         "pk": 45,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/vermont.png",
             "name": "The University of Vermont",
             "population": "11,211",
             "city": "Burlington",
@@ -1137,8 +1146,8 @@
         "pk": 46,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/virginia.png",
             "name": "The University of Virginia",
             "population": "15,822",
             "city": "Charlottesville",
@@ -1162,8 +1171,8 @@
         "pk": 47,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/washington.png",
             "name": "Washington State University",
             "population": "23,135",
             "city": "Pullman",
@@ -1187,8 +1196,8 @@
         "pk": 48,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/west_virginia.png",
             "name": "West Virginia University",
             "population": "22,827",
             "city": "Morgantown",
@@ -1212,8 +1221,8 @@
         "pk": 49,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/wisconsin.png",
             "name": "The University of Wisconsin Madison",
             "population": "30,863",
             "city": "Madison",
@@ -1237,8 +1246,8 @@
         "pk": 50,
         "model": "assault_app.Schools",
         "fields": {
-    "content": "",
-
+            "content": "",
+            "img": "{{ STATIC_URL }}images/icons/wyoming.png",
             "name": "The University of Wyoming",
             "population": "10,194",
             "city": "Laramie",

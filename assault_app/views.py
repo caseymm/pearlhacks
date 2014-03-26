@@ -13,11 +13,12 @@ def school(request, pk):
         form = CommentForm(request.POST) # A form bound to the POST data
         if form.is_valid(): # All validation rules pass
             body = form.cleaned_data['comment']
-            form.save()
             #content = Comment.objects.create(school = school, author = "Anonomyous Author", body = comment)
             #new_comment = Comment.objects.get(pk=1)
-            form = CommentForm(instance=new_comment)
-            form.save()
+            #form = CommentForm(instance=new_comment)
+            comment_form = search_form.save(commit=False)
+            comment_form.school = request.school
+            comment_form.save()
     else:
         form = CommentForm()
 
