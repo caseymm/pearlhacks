@@ -51,7 +51,7 @@
               <ul class="dropdown-menu scrollable-menu">
                 {% for school in schools %}
                 <!-- DON'T FORGET to change this out before going live -->
-                    <li class="schoolDrop"><a href="http://localhost:8000/{{school.id}}">{{school.name}}</a></li>     
+                    <li class="schoolDrop"><a href="http://localhost:8000/{{school.id}}">{{school.state}}: {{school.name}}</a></li>     
                 {% endfor %}
                 
               </ul>

@@ -5,6 +5,7 @@ class Schools(models.Model):
     name = models.CharField(unique=True, max_length=100)
     #creation_date = models.DateField(auto_now_add=True)
     #last_modified = models.DateField(auto_now=True)
+    img = models.TextField()
     population = models.TextField()
     city = models.TextField()
     state = models.TextField()

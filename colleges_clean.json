@@ -504,7 +504,6 @@
         "pk": 21,
         "model": "assault_app.Schools",
         "fields": {
-<<<<<<< HEAD
     "content": "",
 
             "name": "Tufts University",
@@ -524,27 +523,6 @@
             "counseling": "http://ase.tufts.edu/counseling/",
             "lat": 42.4069,
             "longitude": 71.1198
-=======
-            "content": "",
-            "img": "{{ STATIC_URL }}images/icons/massachusetts.png",
-            "name": "Massachusetts Institute of Technology",
-            "population": "4,528",
-            "city": "Cambridge",
-            "state": "Massachusetts",
-            "newspaper": "The Tech",
-            "newspaper_link": "http://tech.mit.edu/",
-            "newspaper_sexualassault": "http://tech.mit.edu/search.html?cx=0008235996970078232703Aqvanwm1hj34&cof=FORID3A11&q=sexual+assault",
-            "male_ratio": 45,
-            "female_ratio": 55,
-            "priv_pub": "Private",
-            "male_greeklife": "49",
-            "female_greeklife": "32",
-            "campus_health": "http://medweb.mit.edu/",
-            "sexual_health": "http://medweb.mit.edu/wellness/programs/sexual_health.html",
-            "counseling": "http://medweb.mit.edu/directory/services/mental_health.html",
-            "lat": 42.3598,
-            "longitude": 71.0921
->>>>>>> 82f2bb63f3ff02af18096826888d7d0828f0ba6c
         }
     },
 
@@ -705,8 +683,6 @@
         "model": "assault_app.Schools",
         "fields": {
             "content": "",
-<<<<<<< HEAD
-
             "name": "Sierra Nevada College",
             "population": "536",
             "city": "Incline Village",
@@ -724,26 +700,6 @@
             "counseling": "http://www.sierracollege.edu/student-services/campus-services/health-services/mental-health.php",
             "lat": 39.2458,
             "longitude": 119.9500
-=======
-            "img": "{{ STATIC_URL }}images/icons/nevada.png",
-            "name": "University of Nevada at Las Vegas",
-            "population": "22,432",
-            "city": "Las Vegas",
-            "state": "Nevada",
-            "newspaper": "The Rebel Yell",
-            "newspaper_link": "http://www.unlvrebelyell.com/",
-            "newspaper_sexualassault": "http://www.unlvrebelyell.com/?s=sexual+assault",
-            "male_ratio": 45,
-            "female_ratio": 55,
-            "priv_pub": "Public",
-            "male_greeklife": "5",
-            "female_greeklife": "3",
-            "campus_health": "http://www.unlv.edu/srwc/health-center",
-            "sexual_health": "http://www.unlv.edu/srwc/wellness-promotion/sexual-health",
-            "counseling": "http://www.unlv.edu/srwc/caps",
-            "lat": 36.1078,
-            "longitude": 115.1438
->>>>>>> 82f2bb63f3ff02af18096826888d7d0828f0ba6c
         }
     },
     {
@@ -777,9 +733,9 @@
         "fields": {
             "content": "",
             "img": "{{ STATIC_URL }}images/icons/new_jersey.png",
-            "name": "Princton University",
+            "name": "Princeton University",
             "population": "5,323",
-            "city": "Princton",
+            "city": "Princeton",
             "state": "New Jersey",
             "newspaper": "The Prinetonian",
             "newspaper_link": "http://dailyprincetonian.com",

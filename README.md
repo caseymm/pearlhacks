@@ -1,4 +1,4 @@
-#Culture of Yes (tentative)
+#Culture of Yes 
 
 ##Postgres
 This is currently set up to run off of postgres. To get this to work: 
@@ -7,10 +7,12 @@ This is currently set up to run off of postgres. To get this to work:
 
 ##Data info
 Most of the current data is located in colleges_clean.json. Run:
+
 $ python manage.py loaddata colleges_clean.json
 
 ##Run Scrapers
 All of the scrapers are run as management commands. From home project directory, you run:
+
 $ python manage.py [filename] 
 - do not include the .py on the filename
 - ex) python manage.py north_carolina   

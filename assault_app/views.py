@@ -10,7 +10,7 @@ def school(request, pk):
     school = get_object_or_404(Schools, id=pk)
     school.content_split = school.content.replace('[','').replace(']','').replace('</div>, <div','</div> <div').replace('</article>, <article','</article> <article')
     comments = Comment.objects.filter(school=school)
-    school_list = Schools.objects.all()
+    school_list = Schools.objects.all()[:50]
     context = {
         'school': school,
         'comments': comments,

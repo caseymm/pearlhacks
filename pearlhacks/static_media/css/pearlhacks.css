@@ -111,3 +111,7 @@ img{
 .panel-footer {
     overflow: hidden;
 }
+
+.bubble{
+    visibility: hidden;
+}
