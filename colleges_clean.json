@@ -505,7 +505,7 @@
         "model": "assault_app.Schools",
         "fields": {
     "content": "",
-
+            "img": "/static/images/icons/massachusetts.png",
             "name": "Tufts University",
             "population": "5,232",
             "city": "Medford",
@@ -683,6 +683,7 @@
         "model": "assault_app.Schools",
         "fields": {
             "content": "",
+            "img": "/static/images/icons/nevada.png",
             "name": "Sierra Nevada College",
             "population": "536",
             "city": "Incline Village",
@@ -757,7 +758,7 @@
 		"model":"assault_app.Schools",
 		"fields":{
                         "content": "",
-                        "img":"new_mexico.png",
+                        "img":"/static/images/icons/new_mexico.png",
 			"name": "University of New Mexico",
 			"population":"21,138",
 			"city":"Albuquerque",
@@ -782,7 +783,7 @@
 		"model":"assault_app.Schools",
 		"fields":{
                         "content": "",
-                        "img":"new_york.png",
+                        "img":"/static/images/icons/new_york.png",
 			"name": "New York University",
 			"population":"22,615",
 			"city":"New York",
